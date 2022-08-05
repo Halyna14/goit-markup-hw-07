@@ -604,9 +604,11 @@ img {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to right,
+  background-image: linear-gradient(
+      to right,
       rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)),
+      rgba(47, 48, 58, 0.4)
+    ),
     url("../img/img-hw04/Img.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -884,8 +886,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input:hover+.form-icon,
-.form-input:focus+.form-icon {
+.form-input:hover + .form-icon,
+.form-input:focus + .form-icon {
   fill: #2196f3;
 }
 
@@ -910,12 +912,12 @@ img {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-checkbox:checked+.form-checkbox-icons .icon-uncheck {
+.input-checkbox:checked + .form-checkbox-icons .icon-uncheck {
   opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-checkbox:checked+.form-checkbox-icons .icon-check {
+.input-checkbox:checked + .form-checkbox-icons .icon-check {
   opacity: 1;
 }
 
