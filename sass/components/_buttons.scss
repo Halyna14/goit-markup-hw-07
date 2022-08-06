@@ -1,0 +1,38 @@
+.btn {
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    letter-spacing: 0.03em;
+}
+
+.btn__link {
+    padding: 6px 22px;
+    color: #212121;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    border-radius: 4px;
+
+    transition-property: color, background-color, box-shadow;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover,
+&:focus {
+    color: var(--light-bg-cl);
+    background-color: var(--accent-txt-cl);
+
+
+}
+  
+}
+
+.btn__link--current {
+    color: var(--light-bg-cl);
+    background-color: var(--accent-txt-cl);
+}
