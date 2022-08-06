@@ -288,8 +288,6 @@ img {
   fill: currentColor;
 }
 
-
-
 .hero__section {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -422,7 +420,6 @@ img {
 
 /* Team */
 
-
 .team__section {
   background-color: #f5f4fa;
 }
@@ -532,7 +529,6 @@ img {
   text-align: center;
 }
 
-
 .subtitle {
   margin-bottom: 4px;
 }
@@ -561,12 +557,9 @@ img {
   color: var(--light-bg-cl);
 }
 
-
-
 .dark__bg {
   background-color: var(--hero-cl);
 }
-
 
 /* Частковий ресет стилей браузера end */
 
@@ -646,7 +639,6 @@ img {
   align-items: baseline;
 }
 
-
 .overlay {
   max-width: 1600px;
   height: 600px;
@@ -662,7 +654,6 @@ img {
   background-position: center;
   background-size: cover;
 }
-
 
 /* Socials icons*/
 .icons__list {
@@ -703,7 +694,6 @@ img {
   background: #ffffff;
 }
 
-
 .networks {
   display: flex;
   align-items: center;
@@ -732,16 +722,11 @@ img {
   fill: #ffffff;
 }
 
-
-
 .socials__icon {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
-
 
 .clients__title {
   margin-bottom: 50px;
@@ -778,7 +763,6 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .clients__link:hover,
 .clients__link:focus {
   border-color: #2196f3;
@@ -798,9 +782,6 @@ img {
 .clients__icon {
   fill: #afb1b8;
 }
-
-
-
 
 /* Modal window */
 
@@ -990,7 +971,6 @@ img {
   color: #757575;
 }
 
-
 .form__textarea {
   width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -1001,16 +981,16 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form__input{
-    width: 100%;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-    padding: 11px;
-    padding-left: 40px;
-    transition-property: border;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
+.form__input {
+  width: 100%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding: 11px;
+  padding-left: 40px;
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .form__input:hover,
 .form__input:focus {
