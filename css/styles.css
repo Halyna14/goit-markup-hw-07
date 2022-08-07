@@ -156,7 +156,7 @@ img {
   letter-spacing: 0.03em;
 } */
 
-.logo__accent {
+/* .logo__accent {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: var(--accent-txt-cl);
@@ -169,7 +169,7 @@ img {
 
 .logo__light {
   color: var(--light-bg-cl);
-}
+} */
 
 /* .header__container {
   display: flex;
@@ -282,9 +282,9 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 } */
 
-.icon__nav {
+/* .icon__nav {
   fill: currentColor;
-}
+} */
 
 /* .hero__section {
   padding-top: 200px;
@@ -381,7 +381,7 @@ img {
   color: var(--phone-cl);
 } */
 
-.doing__section {
+/* .doing__section {
   padding-bottom: 94px;
 }
 
@@ -404,7 +404,7 @@ img {
   text-transform: uppercase;
   color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
-}
+} */
 
 /* .title {
   font-weight: 700;
@@ -418,12 +418,12 @@ img {
 
 /* Team */
 
-.team__section {
+/* .team__section {
   background-color: #f5f4fa;
 }
 
 .team__item {
-  /* flex-basis: calc((100% - 30px * 3) / 4); */
+
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -466,11 +466,11 @@ img {
   padding-right: 24px;
   border: 1px solid #eeeeee;
   border-top: none;
-}
+} */
 
 /* Portfolio */
 
-.portfolio__link {
+/* .portfolio__link {
   display: inline-block;
   transition-property: color, background-color, box-shadow;
   transition-duration: 250ms;
@@ -525,9 +525,9 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff;
   text-align: center;
-}
+} */
 
-.subtitle {
+/* .subtitle {
   margin-bottom: 4px;
 }
 
@@ -543,9 +543,9 @@ img {
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--phone-cl);
-}
+} */
 
-.address {
+/* .address {
   gap: 9px;
   font-style: normal;
   font-weight: 400;
@@ -557,11 +557,11 @@ img {
 
 .dark__bg {
   background-color: var(--hero-cl);
-}
+} */
 
 /* Частковий ресет стилей браузера end */
 
-.portfolio__list {
+/* .portfolio__list {
   display: flex;
   justify-content: center;
   margin: 0;
@@ -577,10 +577,10 @@ img {
   font-family: inherit;
   cursor: pointer;
   border-radius: 4px;
-}
+} */
 
 /* Footer */
-.logo {
+/* .logo {
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
@@ -620,7 +620,7 @@ img {
 
 .footer__left {
   margin-right: 70px;
-}
+} */
 
 /* .footer__title {
   margin-bottom: 20px;
@@ -631,13 +631,13 @@ img {
   text-transform: uppercase;
   color: #ffffff;
 } */
-
+/* 
 .footer__content {
   display: flex;
   align-items: baseline;
-}
+} */
 
-.overlay {
+/* .overlay {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -651,10 +651,10 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
+} */
 
 /* Socials icons*/
-.icons__list {
+/* .icons__list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -724,7 +724,7 @@ img {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* .clients__title {
   margin-bottom: 50px;
@@ -736,7 +736,7 @@ img {
   color: #212121;
 } */
 
-.clients {
+/* .clients {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -779,11 +779,11 @@ img {
 
 .clients__icon {
   fill: #afb1b8;
-}
+} */
 
 /* Modal window */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -800,7 +800,7 @@ img {
   pointer-events: initial;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 /* 
 .backdrop.is-hidden {
   opacity: 0;
@@ -808,7 +808,7 @@ img {
   pointer-events: none;
 } */
 
-.modal {
+/* .modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -819,9 +819,9 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 40px;
-}
+} */
 
-.modal__btn {
+/* .modal__btn {
   position: absolute;
   width: 30px;
   height: 30px;
@@ -847,7 +847,7 @@ img {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* .form {
   display: block;
@@ -933,12 +933,12 @@ img {
   margin: -1px;
 }  */
 
-.policy__link {
+/* .policy__link {
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   text-underline-position: under;
   color: #2196f3;
-}
+} */
 
 /* .form__btn {
   display: inline-flex;
